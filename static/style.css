@@ -93,7 +93,7 @@ p{
     gap: 15px;
 }
 
-.left{
+.left-up{
     height: 100%;
     width: 49%;
     border-width: 2px;
@@ -102,13 +102,126 @@ p{
     border-radius: 35px;
     display: block;
 }
-.right{
+.left-down{
+    height: 100%;
+    width: 49%;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 35px;
+    display: block;
+}
+
+.right-up{
     height: 100%;
     width: 50%;
     border-width: 2px;
     border-color: white;
     border-style: solid;
     margin-right: 1%;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.right-side1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.css-aspect{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 35px;
+    height: 100%;
+    width: 90%;
+    margin-right: 5%;
+}
+
+.left-side1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.html-aspect{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 35px;
+    height: 100%;
+    width: 90%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.lower{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-side2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.htmlandcss{
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 25px;
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.htmlandcssSection{
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.htmlandcssText{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 260%;
+}
+
+.right-side2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-down{
+    height: 100%;
+    width: 49%;
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
     border-radius: 35px;
     display: block;
 }
@@ -127,4 +240,28 @@ p{
     margin-left: 10px;
     margin-top: 0px;
     margin-bottom: 5px;
+}
+
+.css-section{
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.css-header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 5%;
+}
+
+.html-section{
+    font-size: 22px;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 7px;
 }
